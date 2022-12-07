@@ -24,7 +24,7 @@ public class War {
                 ArrayList<String> tempList2 = new ArrayList<String>();
 
                 //pull 4 cards from each hand into a temp list
-                for (int i = 0; i < 3; i++) {
+                for (int i = 0; i < 4; i++) {
                     tempList1.add(hand1.remove(0));
                     tempList2.add(hand2.remove(0));
                 }

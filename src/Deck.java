@@ -86,11 +86,11 @@ public class Deck {
             }else if (card1Value < card2Value){
                 System.out.println("Player 2 won the round");
                 if(Math.random() > 0.5){
-                    hand1.add(card1);
-                    hand1.add(card2);
+                    hand2.add(card1);
+                    hand2.add(card2);
                 }else{
-                    hand1.add(card2);
-                    hand1.add(card1);
+                    hand2.add(card2);
+                    hand2.add(card1);
                 }
             }else {
                 if (War.warMethod(hand1, hand2, card1Value, card2Value)) break;
