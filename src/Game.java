@@ -6,7 +6,7 @@
  */
 
 import java.util.ArrayList;
-public class Deck {
+public class Game {
     public static void main(String[] args) {
         //this is making the suits and values for the cards
         String[] suits = {"Hearts", "Spades", "Clubs", "Diamonds"};
